@@ -60,9 +60,11 @@ Sau khi đăng nhập hệ thống thành công, click vào menu và chọn menu
 ![gs1](docs/images/gs1.jpg)
 
 Có thể tìm kiếm linh hoạt theo ý muốn, bộ lọc bao gồm nhiều trường dữ liệu hỗ trợ tìm kiếm 1 cách nhanh chóng và chính xác nhất gồm: 
-•	Search: nơi nhập câu truy vấn dữ liệu. Có thể chọn các loại ngôn ngữ truy vấn phù hợp.
-•	Date time: chọn thời gian mong muốn để hiển thị kết quả tìm kiếm.
-•	Add filter: thêm bộ lọc thông tin dưới dạng câu truy vấn.
+-	Search: nơi nhập câu truy vấn dữ liệu. Có thể chọn các loại ngôn ngữ truy vấn phù hợp.
+  
+-	Date time: chọn thời gian mong muốn để hiển thị kết quả tìm kiếm.
+  
+-	Add filter: thêm bộ lọc thông tin dưới dạng câu truy vấn.
 
 ## 8. Quản lý agents trên Wazuh
 
