@@ -37,9 +37,81 @@ Hệ thống hỗ trợ tích hợp mạnh mẽ với các công cụ mã nguồ
 
 Dưới đây là các lệnh cơ bản để triển khai kiến trúc Cluster và cấu hình Agent.
 
-### 5.1. Cài đặt Wazuh Server & Indexer (Phiên bản 4.7)
-Tải file script và file cấu hình trên tất cả các node:
 ![cau lenh 1](docs/images/cmd1.jpg)
 ![cau lenh 1](docs/images/cmd2.jpg)
 ![cau lenh 1](docs/images/cmd3.jpg)
 ![cau lenh 1](docs/images/cmd4.jpg)
+
+## 6. Dashboard Wazuh
+
+Truy cập trang quản trị Wazuh và đăng nhập vào tài khoản đã được cấp khi tải
+gói cài đặt Wazuh.
+
+![db1](docs/images/db1.png)
+
+![db2](docs/images/db2.jpg)
+
+![db3](docs/images/db3.jpg)
+
+## 7. Giám sát log trên Dashboard
+
+Sau khi đăng nhập hệ thống thành công, click vào menu và chọn menu Explore và chọn Discover để đi đến phần giám sát log. Tại đây, người dùng sẽ có cái nhìn tổng quan đến chi tiết về các sự kiện liên quan đến các lỗ hổng bảo mật được hệ thống rò quét phát hiện.
+
+![gs1](docs/images/gs1.jpg)
+
+Có thể tìm kiếm linh hoạt theo ý muốn, bộ lọc bao gồm nhiều trường dữ liệu hỗ trợ tìm kiếm 1 cách nhanh chóng và chính xác nhất gồm: 
+•	Search: nơi nhập câu truy vấn dữ liệu. Có thể chọn các loại ngôn ngữ truy vấn phù hợp.
+•	Date time: chọn thời gian mong muốn để hiển thị kết quả tìm kiếm.
+•	Add filter: thêm bộ lọc thông tin dưới dạng câu truy vấn.
+
+## 8. Quản lý agents trên Wazuh
+
+Sau khi đăng nhập vào hệ thống, tại Wazuh, nhấn chọn menu Server management và chọn “Endpoint Sumary” để truy cập chức năng quản lý agents.
+
+
+![ql1](docs/images/ql1.png)
+
+## 8. Giám sát toàn vẹn tệp
+8.1 FIM
+Sau khi đăng nhập vào hệ thống, tại Wazuh, click chọn menu Endpoint Security và chọn File Intergrity Monitoring để quản lý cảnh báo liên quan đến thay đổi tệp, bao gồm quyền, nội dung, quyền sở hữu và thuộc tính.
+
+![gs2](docs/images/gs2.png)
+
+8.2 Kịch bản giám sát thay đổi tệp
+Chọn thư mục để giám sát.
+Ở đây chọn thư mục Download của Windows 10 agent.
+![gs3](docs/images/gs3.png)
+Xóa thư mục vừa tạo.
+![gs4](docs/images/gs4.png)
+Thông báo sẽ được hiện lên. 
+![gs5](docs/images/gs5.png)
+
+## 9. Quản lý lỗ hổng bảo mật CVE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
