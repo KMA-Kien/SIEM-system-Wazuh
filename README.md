@@ -36,6 +36,8 @@ Hệ thống hỗ trợ tích hợp mạnh mẽ với các công cụ mã nguồ
 
 Dưới đây là các lệnh cơ bản để triển khai kiến trúc Cluster và cấu hình Agent.
 
+### Các câu lệnh tham khảo trên https://documentation.wazuh.com/current/installation-guide/
+
 ![cau lenh 1](docs/images/cmd1.jpg)
 ![cau lenh 1](docs/images/cmd2.jpg)
 ![cau lenh 1](docs/images/cmd3.jpg)
@@ -159,14 +161,14 @@ Cảnh báo đã được sinh ra:
 
 
 
-📚 Tài liệu tham khảo
-Wazuh Documentation
+# 📚 Tài liệu tham khảo
+- Wazuh Documentation
 
-Suricata Documentation
+- Suricata Documentation
 
-DFIR-IRIS and integrate with WAZUH: step-by-step guide (Certbar.com)
+- DFIR-IRIS and integrate with WAZUH: step-by-step guide (Certbar.com)
 
-Step-by-step setup of Wazuh SIEM on Ubuntu 22.04.3 LTS (Akobe-Ajibolu, E.)
+- Step-by-step setup of Wazuh SIEM on Ubuntu 22.04.3 LTS (Akobe-Ajibolu, E.)
 ------------------------------------------------------------------------------------------------------------------
 Lưu ý: Repository này được tạo ra với mục đích học tập và nghiên cứu.
 
