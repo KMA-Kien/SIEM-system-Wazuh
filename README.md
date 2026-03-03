@@ -39,3 +39,4 @@ Dưới đây là các lệnh cơ bản để triển khai kiến trúc Cluster 
 
 ### 5.1. Cài đặt Wazuh Server & Indexer (Phiên bản 4.7)
 Tải file script và file cấu hình trên tất cả các node:
+(docs/images/cmd1)
