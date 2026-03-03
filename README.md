@@ -72,12 +72,12 @@ Sau khi đăng nhập vào hệ thống, tại Wazuh, nhấn chọn menu Server 
 ![ql1](docs/images/ql1.png)
 
 ## 8. Giám sát toàn vẹn tệp
-8.1 FIM
+### 8.1 FIM
 Sau khi đăng nhập vào hệ thống, tại Wazuh, click chọn menu Endpoint Security và chọn File Intergrity Monitoring để quản lý cảnh báo liên quan đến thay đổi tệp, bao gồm quyền, nội dung, quyền sở hữu và thuộc tính.
 
 ![gs2](docs/images/gs2.png)
 
-8.2 Kịch bản giám sát thay đổi tệp
+### 8.2 Kịch bản giám sát thay đổi tệp
 Chọn thư mục để giám sát.
 Ở đây chọn thư mục Download của Windows 10 agent.
 ![gs3](docs/images/gs3.png)
