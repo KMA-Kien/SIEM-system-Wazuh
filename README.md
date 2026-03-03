@@ -28,7 +28,6 @@ Hệ thống hỗ trợ tích hợp mạnh mẽ với các công cụ mã nguồ
 * **VirusTotal**: Kiểm tra mã hash của các tệp đáng ngờ thông qua API.
 * **DFIR-IRIS**: Nền tảng điều tra sự cố giúp quản lý và theo dõi cảnh báo tập trung.
 * **Suricata (IDS/IPS)**: Phân tích lưu lượng mạng và gửi log cảnh báo tấn công về hệ thống trung tâm.
-* **Telegram**: Gửi cảnh báo bảo mật thời gian thực qua Telegram Bot API.
 * **ELK Stack**: Mở rộng khả năng lưu trữ và phân tích log với Elasticsearch và Logstash.
 
 ---
@@ -94,20 +93,69 @@ Thông báo sẽ được hiện lên.
 
 ## 9. Quản lý lỗ hổng bảo mật CVE
 
+### 9.1	Dashboard
 
+Sau khi đăng nhập vào hệ thống, tại Wazuh, click chọn menu Threat Intelligence và chọn Vulnerabilities để sử dụng chức năng quản lý, khám phá những ứng dụng, thiết bị, hệ điều hành trong hệ thống mạng của bạn bị ảnh hưởng bởi các lỗ hổng an toàn thông tin.
 
+![cve1](docs/images/cve1.png)
 
+Có thể tìm kiếm linh hoạt theo ý muốn, bộ lọc bao gồm nhiều trường dữ liệu hỗ trợ tìm kiếm 1 cách nhanh chóng và chính xác nhất gồm: 
+-	Search: nơi nhập câu truy vấn.
+  
+-	Add filter: thêm bộ lọc thông tin dưới dạng câu truy vấn.
+  
+-	Explore agent: lựa chọn Agent muốn hiển thị thông tin.
 
+### 9.2	Kịch bản giám sát lỗ hổng
 
+Thông thường các EDR sẽ được trang bị một máy quét lỗ hổng vunerability detector, dữ liệu của máy quét được lấy từ các nguồn uy tín nên đảm bảo tính chính xác. 
 
+Máy quét lỗ hổng sẽ định kì quét 1 tháng 2 lần cho mỗi máy. Các lỗ hổng có thể quét được chủ yếu là lỗ hổng trên hệ điều hành. Không phải tất cả ứng dụng chạy trên hệ thống đều quét được lỗ hổng. 
 
+Chọn tab Inventory
 
+![cve2](docs/images/cve2.png)
 
+Có thể chọn nút “kính lúp” để xem chi tiết thông tin.
 
+![cve3](docs/images/cve3.png)
 
+## 10.	Phản hồi chủ động
 
+Tạo rule mới trong /var/ossecc/etc/rules/local_rules.xml.
 
+![rule1](docs/images/rule1.png)
 
+Tạo cảnh báo cho rule này tại /var/ossecc/etc/ossecc.conf.
+
+![rule2](docs/images/rule2.png)
+
+Sau khi có một máy cố tình truy cập vào trang web sẽ bị chặn.
+
+![rule3](docs/images/rule3.png)
+
+![rule4](docs/images/rule4.png)
+
+Hiển thị log:
+![rule5](docs/images/rule5.png)
+
+## 11. Tích hợp VirusTotal
+
+Cấu hình rule cho VirusTotal:
+
+![vr1](docs/images/vr1.png)
+
+Tắt virus & threat protection settings:
+
+![vr2](docs/images/vr2.png)
+
+Thực thi lệnh trên Powershell:
+
+![vr3](docs/images/vr3.png)
+
+Cảnh báo đã được sinh ra:
+
+![vr4](docs/images/vr4.png)
 
 
 
