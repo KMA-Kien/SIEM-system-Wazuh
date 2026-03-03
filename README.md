@@ -159,6 +159,16 @@ Cảnh báo đã được sinh ra:
 
 
 
+📚 Tài liệu tham khảo
+Wazuh Documentation
+
+Suricata Documentation
+
+DFIR-IRIS and integrate with WAZUH: step-by-step guide (Certbar.com)
+
+Step-by-step setup of Wazuh SIEM on Ubuntu 22.04.3 LTS (Akobe-Ajibolu, E.)
+------------------------------------------------------------------------------------------------------------------
+Lưu ý: Repository này được tạo ra với mục đích học tập và nghiên cứu.
 
 
 
