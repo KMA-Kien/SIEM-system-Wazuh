@@ -81,9 +81,13 @@ Sau khi đăng nhập vào hệ thống, tại Wazuh, click chọn menu Endpoint
 Chọn thư mục để giám sát.
 Ở đây chọn thư mục Download của Windows 10 agent.
 ![gs3](docs/images/gs3.png)
+
 Xóa thư mục vừa tạo.
+
 ![gs4](docs/images/gs4.png)
+
 Thông báo sẽ được hiện lên. 
+
 ![gs5](docs/images/gs5.png)
 
 ## 9. Quản lý lỗ hổng bảo mật CVE
